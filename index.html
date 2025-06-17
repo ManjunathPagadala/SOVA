@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOVA - YOUR WORKPLACE WELLNESS COMPANION</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.0/lottie.min.js"></script>
+</head>
+<body>
+    <canvas id="bg-dots"></canvas>
+    <nav>
+        <div class="nav-content">
+            <div class="logo">
+                <span>SOVA</span>
+            </div>
+            <div class="nav-links">
+                <a href="#features">FEATURES</a>
+                <a href="#animations">ANIMATIONS</a>
+                <a href="#download">DOWNLOAD</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <canvas id="hero-particles"></canvas>
+        <div class="hero-floating-shapes">
+            <svg class="hero-shape shape1" width="120" height="120" viewBox="0 0 120 120"><circle cx="60" cy="60" r="60" fill="#4a90e2" fill-opacity="0.18"/></svg>
+            <svg class="hero-shape shape2" width="90" height="90" viewBox="0 0 90 90"><circle cx="45" cy="45" r="45" fill="#50c878" fill-opacity="0.15"/></svg>
+            <svg class="hero-shape shape3" width="140" height="140" viewBox="0 0 140 140"><ellipse cx="70" cy="70" rx="70" ry="55" fill="#ffd700" fill-opacity="0.13"/></svg>
+        </div>
+        <div class="hero-content">
+            <h1>ENHANCE YOUR WORKPLACE WELLNESS</h1>
+            <p>SOVA HELPS YOU MAINTAIN A HEALTHY WORK-LIFE BALANCE WITH GENTLE REMINDERS AND CALMING ANIMATIONS.</p>
+        </div>
+        <div class="hero-right">
+            <div class="hero-illustration">
+                <div class="illustration-circle">
+                    <div class="circle-item">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <div class="circle-item">
+                        <i class="fas fa-walking"></i>
+                    </div>
+                    <div class="circle-item">
+                        <i class="fas fa-tint"></i>
+                    </div>
+                    <div class="circle-item">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                </div>
+                <div class="illustration-center">
+                    <div class="center-pulse">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="heartbeat-signal">
+            <div class="signal-line"></div>
+            <div class="signal-pulse"></div>
+        </div>
+        <div class="hero-vignette"></div>
+    </header>
+
+    <section id="rotating-disc" class="rotating-disc">
+        <h2>FEATURED IMAGES</h2>
+        <div class="disc-container">
+            <div class="disc">
+                <div class="disc-item">
+                    <img src="images/image1.jpg" alt="Wellness Image 1">
+                </div>
+                <div class="disc-item">
+                    <img src="images/image2.jpg" alt="Wellness Image 2">
+                </div>
+                <div class="disc-item">
+                    <img src="images/image3.jpg" alt="Wellness Image 3">
+                </div>
+                <div class="disc-item">
+                    <img src="images/image4.jpg" alt="Wellness Image 4">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <h2>Why Choose Sova?</h2>
+        <div class="feature-grid">
+            <div class="feature-card">
+                <i class="fas fa-eye"></i>
+                <h3>Eye Care</h3>
+                <p>Regular reminders to rest your eyes and prevent digital eye strain.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-walking"></i>
+                <h3>Movement</h3>
+                <p>Gentle prompts to take short breaks and stretch your body.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-tint"></i>
+                <h3>Hydration</h3>
+                <p>Regular reminders to stay hydrated throughout your workday.</p>
+            </div>
+        </div>
+    </section>
+    <section id="animations" class="animations">
+        <h2>MEET YOUR WELLNESS ANIMATIONS</h2>
+        <div class="animation-grid">
+            <div class="animation-item">
+                <div class="animation-preview">
+                    <video class="animation-video" loop muted playsinline autoplay>
+                        <source src="Videos/eye-rest.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <h3>EYE REST REMINDER</h3>
+                <p>EVERY 20 MINUTES, SOVA REMINDS YOU TO LOOK AWAY FROM YOUR SCREEN AND FOCUS ON DISTANT OBJECTS.</p>
+            </div>
+            <div class="animation-item">
+                <div class="animation-preview">
+                    <video class="animation-video" loop muted playsinline autoplay>
+                        <source src="Videos/stretch-break.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <h3>STRETCH BREAK</h3>
+                <p>EVERY HOUR, A GENTLE ANIMATION ENCOURAGES YOU TO STAND UP AND STRETCH YOUR BODY.</p>
+            </div>
+            <div class="animation-item">
+                <div class="animation-preview">
+                    <video class="animation-video" loop muted playsinline autoplay>
+                        <source src="Videos/hydration.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <h3>HYDRATION REMINDER</h3>
+                <p>EVERY 30 MINUTES, A FRIENDLY ANIMATION REMINDS YOU TO TAKE A SIP OF WATER AND STAY HYDRATED.</p>
+            </div>
+            <div class="animation-item">
+                <div class="animation-preview">
+                    <video class="animation-video" loop muted playsinline autoplay>
+                        <source src="Videos/work-focus.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <h3>WORK FOCUS</h3>
+                <p>HELPFUL REMINDERS TO MAINTAIN FOCUS AND PRODUCTIVITY DURING YOUR WORK SESSIONS.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="download" class="download">
+        <h2>Ready to Transform Your Workday?</h2>
+        <p>Download Sova now and start your journey to better workplace wellness.</p>
+        <a href="dist/Sova-1.0.0-win.zip" class="download-button">
+            <i class="fas fa-download"></i>
+            Download Sova
+        </a>
+        <div class="how-to-use">
+            <h3>Getting Started</h3>
+            <p>Click the download link above to get the app. Once downloaded, extract the files and launch the <code>.exe</code> file. Position your preferred SOVA widget anywhere on the screen and enjoy the animated wellness prompts. To exit, simply right-click and select “Close”.</p>
+        </div>
+        
+    </section>
+  
+    
+      
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Sova</h4>
+                <p>Your workplace wellness companion</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <a href="#features">Features</a>
+                <a href="#animations">Animations</a>
+                <a href="#download">Download</a>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <a href="mailto:mpagadala5245@gmail.com" class="footer-email">mpagadala5245@gmail.com</a>
+            </div>
+            
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Sova. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="bg-dots.js"></script>
+</body>
+</html> 
