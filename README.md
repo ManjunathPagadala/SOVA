@@ -46,5 +46,4 @@ Visit the official site for instructions, preview, and support: [Official Websit
 
 Head to the latest release to download the installer:  ➡️ [Download SOVA v1.0](https://github.com/ManjunathPagadala/SOVA/releases/download/v1.0/SOVA-win32-x64-v1.0.zip)
 
-> ⚠️ Windows may show a warning for unsigned apps. Click “More info” → “Run anyway” to continue.
 
