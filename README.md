@@ -12,7 +12,7 @@ It is built to enhance well-being without disrupting productivity.
 
 ---
 
-## 🚀 Why Do you need it?
+## 🚀 Why do you need it?
 
 **Problem:**
 - Long screen time leads to eye strain, fatigue, and poor posture.
